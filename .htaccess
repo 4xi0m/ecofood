@@ -1,0 +1,9 @@
+﻿ErrorDocument 401 MangrovaError.php
+
+RewriteEngine On
+
+# If the requested file does not exists or is a .php file
+# Then URL rewriting
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} \.php$
+RewriteRule ^(.*)$ Mangrova.class.php [QSA,L]

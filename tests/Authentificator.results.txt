@@ -1,0 +1,27 @@
+[TEST GROUP 1]                		AUTHENTIFICATOR WITH NO CONNECTED USER
+[Mangrova\Model::__construct] 		Type test - is_array($p_data) : true
+[Mangrova\Module::__construct]		Type test - $p_model instanceof Model || is_null($p_model) : true
+[Mangrova\Module::__construct]		Type test - $p_view instanceof View || is_null($p_view) : true
+[Mangrova\Block::__construct] 		Type test - is_array($p_settings) : true
+[ASSERT EQUAL]                		1
+[TEST GROUP 2]                		AUTHENTIFICATOR WITH FAKE CONNECTED USER
+[Mangrova\Model::__construct] 		Type test - is_array($p_data) : true
+[Mangrova\Module::__construct]		Type test - $p_model instanceof Model || is_null($p_model) : true
+[Mangrova\Module::__construct]		Type test - $p_view instanceof View || is_null($p_view) : true
+[Mangrova\Block::__construct] 		Type test - is_array($p_settings) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Model::get]         		Type test - is_string($key) : true
+[ASSERT EQUAL]                		1
+[TEST GROUP 3]                		AUTHENTIFICATOR WITH GOOD CONNECTED USER
+[Mangrova\Model::__construct] 		Type test - is_array($p_data) : true
+[Mangrova\Module::__construct]		Type test - $p_model instanceof Model || is_null($p_model) : true
+[Mangrova\Module::__construct]		Type test - $p_view instanceof View || is_null($p_view) : true
+[Mangrova\Block::__construct] 		Type test - is_array($p_settings) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Security::secure]   		Type test - is_string($variable) || is_array($variable) || is_null($variable) : true
+[Mangrova\Model::get]         		Type test - is_string($key) : true
+[ASSERT EQUAL]                		1
+[TOTAL FAILED TESTS]          		0

@@ -1,0 +1,7 @@
+[TEST GROUP 1]                		REDIRECTION VARIANTS
+[Mangrova\Module::__construct]		Type test - $p_model instanceof Model || is_null($p_model) : true
+[Mangrova\Module::__construct]		Type test - $p_view instanceof View || is_null($p_view) : true
+[Mangrova\Block::__construct] 		Type test - is_array($p_settings) : true
+[TEST 2]                      		OK
+[TEST 3]                      		OK
+[TOTAL FAILED TESTS]          		0

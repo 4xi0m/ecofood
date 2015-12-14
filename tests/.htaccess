@@ -1,0 +1,4 @@
+﻿AuthName "tg"
+AuthType Basic
+AuthUserFile "G:\Programs\Windows\Internet & Communication\EasyPHP-DevServer\data\localweb\tests\.htpasswd"
+Require valid-user
