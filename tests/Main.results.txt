@@ -1,6 +1,0 @@
-[TEST GROUP 1]                		DISPLAYING MAIN
-[Mangrova\Link::__construct]  		Type test - is_array($p_attributes) : true
-[Mangrova\Layout::__construct]		Type test - is_array($p_settings) : true
-[Mangrova\Block::__construct] 		Type test - is_array($p_settings) : true
-[TEST 2]                      		OK
-[TOTAL FAILED TESTS]          		0
